@@ -2,8 +2,8 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import Notiflix from 'notiflix';
 
-const startButton = document.querySelector('[data-start]');
-const inputField = document.getElementById('datetime-picker');
+const startButton = document.querySelector('button[data-start]');
+const inputField = document.querySelector('#datetime-picker');
 const bodyElement = document.body;
 
 const options = {
