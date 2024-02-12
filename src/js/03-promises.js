@@ -21,6 +21,7 @@ form.addEventListener('submit', event  => {
   const amount = parseInt(document.querySelector('input[name="amount"]').value);
   const delay = parseInt(document.querySelector('input[name="delay"]').value);
   const step = parseInt(document.querySelector('input[name="step"]').value);
+  form.reset();
 
   for (let i = 0; i < amount; i++) {
     const position = i + 1;
